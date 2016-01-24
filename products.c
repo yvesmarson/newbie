@@ -12,7 +12,7 @@ int main(void)
         
         for (j = 0; j < 1; j++) /* prints this loop only once each turn of the for (i) loop */
         {
-            n[i] = 1; /* do not define n here, as to indicate a change in n */
+            n[i] = 1; /* no need to define n here */
             int prod = n[0] * n[1] * n[2] * n[3];
             printf("%d", prod);
             
