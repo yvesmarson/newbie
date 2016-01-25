@@ -18,7 +18,7 @@ int main(void)
             
             if (i <= 2)
             {
-                printf(", "); /* stops printing a comma & space at the 2nd index of array */
+                printf(", "); /* stops printing a comma & space at index 2 of array */
             }
         }
         
